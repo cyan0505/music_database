@@ -6,6 +6,10 @@ public class RecordGenerator {
 
 //        new ArtistGenerator();
 //        new BandGenerator();
-        new ArtistBandGenerator();
+//        new ArtistBandGenerator();
+        new SongGenerator();
+//        new AlbumsGenerator();
+//        new BandSongGenerator();
+        new PlaylistSongGenerator();
     }
 }
