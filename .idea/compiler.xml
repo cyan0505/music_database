@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="2nd_tw" />
+        <module name="record_generator" />
       </profile>
     </annotationProcessing>
   </component>
