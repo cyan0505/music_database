@@ -10,8 +10,8 @@ CREATE TABLE IF NOT EXISTS  band (
 );
 
 CREATE TABLE IF NOT EXISTS  artist_band (
-    id_band INTEGER NOT NULL,
     id_artist INTEGER NOT NULL,
+    id_band INTEGER NOT NULL,
     PRIMARY KEY (id_band, id_artist),
 
     FOREIGN KEY (id_band) REFERENCES band (id_band),

@@ -7,13 +7,13 @@ public class RecordGenerator {
 
 //        new ArtistGenerator();
 //        new BandGenerator();
-        new ArtistBandGenerator();
+//        new ArtistBandGenerator();
 //        new UsersGenerator();
 //        new PlaylistGenerator();
 //        new UsersPlaylistsGenerator();
 //        new SongGenerator();
 //        new AlbumsGenerator();
 //        new BandSongGenerator();
-//        new PlaylistSongGenerator();
+        new PlaylistSongGenerator();
     }
 }

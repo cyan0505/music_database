@@ -11,7 +11,7 @@ public class ArtistBandGenerator {
         for (int i = 1; i < 20000; i++) {
             StringBuilder sb = new StringBuilder(i  + "," + counter +  "\n");
             counter++;
-            if(counter == 4996){
+            if(counter == 5000){
                 counter = 1;
             }
             pw.write(sb.toString());
