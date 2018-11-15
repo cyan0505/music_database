@@ -20,7 +20,7 @@ public class SongGenerator {
                 if(counterBand == 4998){
                     counterBand = 1;
                 }
-                sb = new StringBuilder(counterBand + "," + "null" + "," + (random.nextInt(9)+1) + "," + "song_name" + i + "," + songLength + "," + publishmentYear + "\n");
+                sb = new StringBuilder(counterBand + "," + "null" + "," + (random.nextInt(9)+1)  + "," + "song_name" + i + "," + songLength + "," + publishmentYear + "\n");
                 counterBand++;
             }
             else{
