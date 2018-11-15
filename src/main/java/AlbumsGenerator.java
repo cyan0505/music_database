@@ -6,15 +6,15 @@ public class AlbumsGenerator {
 
     public AlbumsGenerator() throws FileNotFoundException {
         PrintWriter pw = new PrintWriter(new File("albums.csv"));
-        int counterAlbum = 0;
-        int counterBand = 0;
+        int counterAlbum = 1;
+        int counterBand = 1;
 
         for (int i = 0; i < 50000; i++) {
             if(i == 10){
-                counterAlbum = 0;
+                counterAlbum = 1;
             }
-            if(counterBand == 5000){
-                counterBand = 0;
+            if(counterBand == 4998){
+                counterBand = 1;
             }
             StringBuilder sb = new StringBuilder(counterBand + "," + "album_name" + counterAlbum + "\n");
             counterAlbum++;

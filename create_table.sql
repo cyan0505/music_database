@@ -92,4 +92,3 @@ CREATE TABLE IF NOT EXISTS   playlist_song (
     FOREIGN KEY (id_playlist) REFERENCES playlist (id_playlist),
     FOREIGN KEY (id_song) REFERENCES song (id_song)
 );
-
